@@ -1,0 +1,23 @@
+# Credentials -- NEVER commit these
+config.txt
+.streamlit/secrets.toml
+*.env
+.env
+
+# Cache files -- rebuilt automatically on each run, don't need version control
+cash_universe.json
+cash_rvol_baseline.json
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*$py.class
+
+# Streamlit
+.streamlit/
+
+# OS/editor cruft
+.DS_Store
+Thumbs.db
+*.swp
